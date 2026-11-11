@@ -1,0 +1,21 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [{
+    "id": "100000000000000",
+    "changes": [{
+      "field": "messages",
+      "value": {
+        "messaging_product": "whatsapp",
+        "metadata": { "display_phone_number": "97317000000", "phone_number_id": "100000000000001" },
+        "contacts": [{ "profile": { "name": "Omar Hassan" }, "wa_id": "97337000000" }],
+        "messages": [{
+          "from": "97337000000",
+          "id": "wamid.TEST-NO-EMAIL-0001",
+          "timestamp": "1762700100",
+          "type": "text",
+          "text": { "body": "Hello, I need help with my license renewal." }
+        }]
+      }
+    }]
+  }]
+}

@@ -1,0 +1,25 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [{
+    "id": "100000000000000",
+    "changes": [{
+      "field": "messages",
+      "value": {
+        "messaging_product": "whatsapp",
+        "metadata": { "display_phone_number": "97317000000", "phone_number_id": "100000000000001" },
+        "contacts": [
+          { "profile": { "name": "Fatima <b>Ali</b>" }, "wa_id": "97336000001" },
+          { "profile": { "name": "Omar Hassan" }, "wa_id": "97337000002" }
+        ],
+        "messages": [
+          { "from": "97337000002", "id": "wamid.TEST-MULTI-0002", "timestamp": "1762700200", "type": "text",
+            "text": { "body": "Please renew my CR. omar@example.org" } },
+          { "from": "97336000001", "id": "wamid.TEST-MULTI-0001", "timestamp": "1762700201", "type": "text",
+            "text": { "body": "Hi, <script>alert(1)</script> contact me at fatima.ali@example.com." } },
+          { "from": "97336000001", "id": "wamid.TEST-MULTI-0003", "timestamp": "1762700202", "type": "image",
+            "image": { "id": "media-id" } }
+        ]
+      }
+    }]
+  }]
+}
