@@ -1,0 +1,21 @@
+{
+  "name": "td-whatsapp-intake",
+  "version": "1.0.0",
+  "description": "Receives client WhatsApp messages and sends a confirmation email",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:mock": "node src/server.js --mock",
+    "test": "node --test",
+    "send": "node scripts/send-webhook.js",
+    "outbox": "node scripts/outbox.js",
+    "reset:mock": "node scripts/reset-mock.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "resend": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
